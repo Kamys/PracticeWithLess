@@ -14,16 +14,28 @@ p {
 .header {
   background-color: #778792;
 
+  .header__title {
+    color: #D8D277;
+    padding: 10px;
+  }
+
+  .inline {
+    display: inline;
+  }
+
   .header__nav-item {
     list-style-type: none;
     display: inline-block;
-  }
 
-  .header__nav-link {
-    color: #F3A993;
+    .header__nav-item-link {
+      color: #F3A993;
+    }
   }
+}
 
-  .header__title {
-    color: #D8D277;
-  }
+.col{
+  display: flex;
+  float: left;
+  padding: .5%;
+  margin: .5%;
 }
